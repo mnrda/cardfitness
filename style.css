@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&family=Poppins:wght@100;200;400;500&display=swap');
+*{
+    font-family: Oswald, sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+}
+
+body{
+    background: #eee;
+}
+
+.heading{
+    text-align: center;
+    font-size: 25px;
+    padding: 20px 0;
+    color: black;
+
+}
+
+.box-container{
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 2px;
+    align-items: center; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    grid-gap: 50px;
+    cursor: pointer;
+ 
+
+
+
+}
+
+.box-container .box{
+    padding: 10px;
+    border-radius: 10px;
+    background: #fff;
+    border: 3px solid black;
+    text-align: center;
+     width: 300px !important;
+     margin: 10px;
+     /*  */
+   
+}
+
+
+
+
+.box-container .box .image{
+    height: 100px;
+    margin: 10px 0;
+}
+
+.box-container .box p{
+    border-top: 1px solid black;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 600 ;
+
+}
+.box-container .visible{
+    display: block ;
+}
+
+.box-container .hidden:nth-child(3){
+    display: none ;
+}
+
+.box-container .hidden:nth-child(2){
+    display: none ;
+}
+
+.box-container .hidden:nth-child(1){
+    display: none;
+}
+
+
+/* .button{
+    display: block;
+    margin : auto;
+    text-align: center;
+} */
+
+.box-container a{
+    text-decoration: none;
+    color: black;
+}
+
+ .prev{
+    display: none;
+    
+    width: 20%;
+    color: #eee;
+    background: black;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 3px;
+    margin: 50px;
+    padding-right: 3px;flex-wrap: wrap
+    
+   
+
+}
+
